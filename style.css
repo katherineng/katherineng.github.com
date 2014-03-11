@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------------------*/
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('fonts/proximanova-light-webfont.eot');
+    src: url('fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-light-webfont.woff') format('woff'),
+         url('fonts/proximanova-light-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('fonts/proximanova-lightitalic-webfont.eot');
+    src: url('fonts/proximanova-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-lightitalic-webfont.woff') format('woff'),
+         url('fonts/proximanova-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-lightitalic-webfont.svg#proxima_novalight_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('fonts/proximanova-semibold-webfont.eot');
+    src: url('fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-semibold-webfont.woff') format('woff'),
+         url('fonts/proximanova-semibold-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('fonts/proximanova-semibolditalic-webfont.eot');
+    src: url('fonts/proximanova-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-semibolditalic-webfont.woff') format('woff'),
+         url('fonts/proximanova-semibolditalic-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-semibolditalic-webfont.svg#proxima_novasemibold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'proxima-nova-condensed';
+    src: url('fonts/proximanovacond-light-webfont.eot');
+    src: url('fonts/proximanovacond-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanovacond-light-webfont.woff') format('woff'),
+         url('fonts/proximanovacond-light-webfont.ttf') format('truetype'),
+         url('fonts/proximanovacond-light-webfont.svg#proxima_nova_condensedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima-nova-condensed';
+    src: url('fonts/proximanovacond-lightit-webfont.eot');
+    src: url('fonts/proximanovacond-lightit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanovacond-lightit-webfont.woff') format('woff'),
+         url('fonts/proximanovacond-lightit-webfont.ttf') format('truetype'),
+         url('fonts/proximanovacond-lightit-webfont.svg#proxima_nova_condensedLtIt') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'proxima-nova-condensed';
+    src: url('fonts/proximanovacond-semibold-webfont.eot');
+    src: url('fonts/proximanovacond-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanovacond-semibold-webfont.woff') format('woff'),
+         url('fonts/proximanovacond-semibold-webfont.ttf') format('truetype'),
+         url('fonts/proximanovacond-semibold-webfont.svg#proxima_nova_condensedSBd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima-nova-condensed';
+    src: url('fonts/proximanovacond-semiboldit-webfont.eot');
+    src: url('fonts/proximanovacond-semiboldit-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanovacond-semiboldit-webfont.woff') format('woff'),
+         url('fonts/proximanovacond-semiboldit-webfont.ttf') format('truetype'),
+         url('fonts/proximanovacond-semiboldit-webfont.svg#proxima_nova_condensedSBdIt') format('svg');
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+body {
+    font-family: 'proxima-nova';
+    color: #333333;
+    min-width: 530px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #ff6a62;
+}
+
+header {
+    height: 100px;
+    margin: 0 auto;
+    max-width: 1180px;
+    line-height: 100px;
+    padding: 0 50px;
+    text-transform: uppercase;
+}
+
+#logo {
+    font-family: 'proxima-nova-condensed';
+    font-weight: bold;
+}
+
+#middle-initial {
+    font-weight: normal;
+    color: #555555;
+}
+
+#nav {
+    float: right;
+}
+
+header a {
+    font-family: 'proxima-nova-condensed';
+    color: #333333;
+    text-decoration: none;
+}
+
+#nav a {
+    font-size: 14px;
+    margin-left: 50px;
+
+}
+
+#nav a:hover {
+    padding-top: 3px;
+    border-top: 5px solid #ff6a62;
+}
+
+.background {
+    margin: 0 auto;
+    padding: 50px;
+}
+
+#index-bg {
+    background-image: url('images/martinique.jpg');
+    background-position: -10px 0;
+}
+
+#contact-bg {
+    background-image: url('images/sagaki.jpg');
+    background-position: 0 -5px;
+}
+
+.content {
+    padding: 50px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    text-align: center;
+    word-wrap: break-word;
+}
+
+
+#haygrl {
+    font-weight: bold;
+    color: #ff6a62;
+}
+
+img.icon {
+    height: 30px;
+    margin: 0 10px;
+}
