@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('fonts/proximanova-light-webfont.eot');
+    src: url('fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-light-webfont.woff') format('woff'),
+         url('fonts/proximanova-light-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('fonts/proximanova-lightitalic-webfont.eot');
+    src: url('fonts/proximanova-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-lightitalic-webfont.woff') format('woff'),
+         url('fonts/proximanova-lightitalic-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-lightitalic-webfont.svg#proxima_novalight_italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+body {
+    background: url('images/me.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: helvetica, arial;
+}
+
+#hello {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+#main {
+    margin-left: 20px;
+    font-size: 50px;
+    width: 10px;
+    color: #DDAACC;
+    text-shadow: 1px 1px #881155;
+    font-family: 'proxima-nova';
+}
+
+#about {
+    width: 500px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+a {
+    color: #FF6A62;
+    text-decoration: none;
+}
+
+span#hay {
+    color: #FF6A62;
+}
+
